@@ -166,7 +166,7 @@ export default defineComponent({
     CLOSE_EVENT,
     CLOSED_EVENT,
     UPDATE_MODEL_EVENT,
-    update:modelValue
+    'update:modelValue'
   ],
   setup(props, ctx) {
     const dialogRef = ref<HTMLElement>(null)
